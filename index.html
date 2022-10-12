@@ -114,9 +114,7 @@
             <div class="card-body">
               <h5 class="card-title">DON</h5>
               <p class="card-text">Fingerboard Good Deck - "Don" Limited Edition</p>
-              <p class="card-text"><span class="fw-bold"> Rp
-                  130.000</span>
-              </p>
+              <p class="card-text"><span class="fw-bold"> Rp 130.000</span></p>
             </div>
             <!-- Button trigger modal -->
             <a href="#" class="card-link text-end p-3" data-bs-toggle="modal" data-bs-target="#productModal">
@@ -133,9 +131,7 @@
             <div class="card-body">
               <h5 class="card-title">PAPA</h5>
               <p class="card-text">Fingerboard Good Deck - "Papa" Limited Edition</p>
-              <p class="card-text"><span class="fw-bold"> Rp
-                  130.000</span>
-              </p>
+              <p class="card-text"><span class="fw-bold"> Rp 130.000</span></p>
             </div>
             <!-- Button trigger modal -->
             <a href="#" class="card-link text-end p-3" data-bs-toggle="modal" data-bs-target="#productModal">
@@ -149,8 +145,7 @@
             <div class="card-body">
               <h5 class="card-title">QUEEN</h5>
               <p class="card-text">Fingerboard Good Deck - "Queen" Limited Edition</p>
-              <p class="card-text fw-bold"> Rp 130.000
-              </p>
+              <p class="card-text"><span class="fw-bold"> Rp 130.000</span></p>
             </div>
             <!-- Button trigger modal -->
             <a href="#" class="card-link text-end p-3" data-bs-toggle="modal" data-bs-target="#productModal">
@@ -164,8 +159,7 @@
             <div class="card-body">
               <h5 class="card-title">FIST</h5>
               <p class="card-text">Fingerboard Good Deck - "Fist" Limited Edition</p>
-              <p class="card-text fw-bold"> Rp 130.000
-              </p>
+              <p class="card-text"><span class="fw-bold"> Rp 130.000</span></p>
             </div>
             <!-- Button trigger modal -->
             <a href="#" class="card-link text-end p-3" data-bs-toggle="modal" data-bs-target="#productModal">
@@ -184,8 +178,8 @@
             <div class="card-body">
               <h5 class="card-title">ONE$</h5>
               <p class="card-text">Fingerboard Good Deck - "One$" Limited Edition</p>
-              <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
-                  105.000</span>
+              <p class="card-text"><span class="fw-bold">Rp 105.000</span>
+                <span class="text-decoration-line-through"> Rp 130.000</span>
               </p>
             </div>
             <!-- Button trigger modal -->
@@ -203,8 +197,8 @@
             <div class="card-body">
               <h5 class="card-title">GOODLE</h5>
               <p class="card-text">Fingerboard Good Deck - "Goodle" Limited Edition</p>
-              <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
-                  105.000</span>
+              <p class="card-text"><span class="fw-bold">Rp 105.000</span>
+                <span class="text-decoration-line-through"> Rp 130.000</span>
               </p>
             </div>
             <!-- Button trigger modal -->
@@ -222,8 +216,8 @@
             <div class="card-body">
               <h5 class="card-title">999.9</h5>
               <p class="card-text">Fingerboard Good Deck - "999.9" Limited Edition</p>
-              <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
-                  105.000</span>
+              <p class="card-text"><span class="fw-bold">Rp 105.000</span>
+                <span class="text-decoration-line-through"> Rp 130.000</span>
               </p>
             </div>
             <!-- Button trigger modal -->
@@ -241,8 +235,8 @@
             <div class="card-body">
               <h5 class="card-title">Thx</h5>
               <p class="card-text">Fingerboard Good Deck - "Thx" Limited Edition</p>
-              <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
-                  105.000</span>
+              <p class="card-text"><span class="fw-bold">Rp 105.000</span>
+                <span class="text-decoration-line-through"> Rp 130.000</span>
               </p>
             </div>
             <!-- Button trigger modal -->
@@ -260,8 +254,8 @@
             <div class="card-body">
               <h5 class="card-title">PRAY</h5>
               <p class="card-text">Fingerboard Good Deck - "Pray" Limited Edition</p>
-              <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
-                  105.000</span>
+              <p class="card-text"><span class="fw-bold">Rp 105.000</span>
+                <span class="text-decoration-line-through"> Rp 130.000</span>
               </p>
             </div>
             <!-- Button trigger modal -->
@@ -279,8 +273,8 @@
             <div class="card-body">
               <h5 class="card-title">GOODCI</h5>
               <p class="card-text">Fingerboard Good Deck - "Goodci" Limited Edition</p>
-              <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
-                  105.000</span>
+              <p class="card-text"><span class="fw-bold">Rp 105.000</span>
+                <span class="text-decoration-line-through"> Rp 130.000</span>
               </p>
             </div>
             <!-- Button trigger modal -->
@@ -753,7 +747,7 @@
         $(".product-image").attr("src", $(this).parent().siblings().attr("Src"));
         $(".product-name").text($(this).siblings("div").find("h5:nth(0)").text());
         $(".product-desc").text($(this).siblings("div").find("p:nth(0)").text());
-        $(".product-price").text($(this).siblings("div").find("span:nth(1)").text());
+        $(".product-price").text($(this).siblings(".card-body").find("span:nth(0)").text());
       });
       $(window).resize(function () {
         if ($(window).width() < 600) {
