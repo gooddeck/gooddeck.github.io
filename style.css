@@ -31,23 +31,8 @@ footer {
     border-radius: 20px;
 }
 
-.follow-us li {
-    display: inline;
-    list-style: none;
-    margin: 5px;
-}
-
-.follow-us li :hover {
-    color: yellow;
-}
-
-.follow-us ul {
-    display: inline-flex;
-    padding-left: 0px;
-}
-
-.follow-us a {
-    color: white;
+.social :hover {
+    color: #EE2D24;
 }
 
 .card-catalog :hover {
