@@ -35,10 +35,6 @@ footer {
     color: #EE2D24;
 }
 
-.card-catalog :hover {
-    opacity: 0.7;
-}
-
 footer a {
     color: white;
 }
@@ -90,11 +86,6 @@ footer a {
 .ribbon::after {
     top: 0;
     left: 0;
-}
-
-.card-review {
-    height: 280px;
-    width: 100%;
 }
 
 .card-news {
