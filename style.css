@@ -89,5 +89,5 @@ footer a {
 }
 
 .card-news {
-    height: 600px;
+    max-height: 650px;
 }
