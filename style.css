@@ -14,7 +14,7 @@ body {
     max-height: 600px;
 }
 
-footer {
+.footer {
     background-image: url("./img/contour-background.png");
     background-size: cover;
 }
@@ -90,4 +90,8 @@ footer a {
 
 .card-news {
     max-height: 650px;
+}
+
+#review .card {
+    max-height: 500px;
 }
