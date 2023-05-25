@@ -78,6 +78,12 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <a href="#goodzilla">
+            <img src="img/Good Deck Banner Goodzilla.webp" class="mx-auto d-block w-100"
+              alt="Good Deck Fingerboard Goodzilla">
+          </a>
+        </div>
+        <div class="carousel-item">
           <a href="#fingerska">
             <img src="img/Good Deck Banner Fingerska.webp" class="mx-auto d-block w-100"
               alt="Good Deck Fingerboard Fingerska">
@@ -138,6 +144,24 @@
       <hr class="border-5 border-top border-danger">
       <div class="row justify-content-center catalog text-center">
         <div class="owl-carousel owl-theme">
+          <!-- Katalog Card Start -->
+          <div class="card w-100 border-light" id="goodzilla">
+            <div class="ribbon">
+              <span style="background-color:#03ac0e">pra-pesan</span>
+            </div>
+            <img src="img/DECK GOODZILLA.png" class="card-img-top deck-img" alt="Fingerboard Good Deck Goodzilla">
+            <div class="card-body">
+              <h5 class="card-title">GOODZILLA</h5>
+              <!-- <p class="card-text">Fingerboard Good Deck - "FINGERSKA" Limited Edition</p> -->
+              <p class="card-text"><span class="fw-bold">Rp 130.000</span>
+              </p>
+            </div>
+            <!-- Button trigger modal -->
+            <a href="#" class="card-link text-end p-3" data-bs-toggle="modal" data-bs-target="#productModal">
+              Lihat Detail
+            </a>
+          </div>
+          <!-- Katalog Card End -->
           <!-- Katalog Card Start -->
           <div class="card w-100 border-light" id="fingerska">
             <div class="ribbon">
@@ -394,33 +418,33 @@
         <div class="col-6 col-sm-3 pt-3">
           <div class="card card-category w-100 border-light position-relative">
             <img src="img/Good Yellotape.jpg" class="card-img-top" alt="Fingerboard Tuning Set">
-            <h5 class="card-title bg-danger bg-gradient text-light text-uppercase position-absolute top-0 start-0 p-2">
+            <!-- <h5 class="card-title bg-danger bg-gradient text-light text-uppercase position-absolute top-0 start-0 p-2">
               Tuning
               Set
-            </h5>
+            </h5> -->
           </div>
         </div>
         <div class="col-6 col-sm-3 pt-3">
           <div class="card card-category w-100 border-light position-relative">
             <img src="img/Good Trucks.jpg" class="card-img-top" alt="Trucks Fingerboard">
-            <h5 class="card-title bg-danger bg-gradient text-light text-uppercase position-absolute top-0 start-0 p-2">
+            <!-- <h5 class="card-title bg-danger bg-gradient text-light text-uppercase position-absolute top-0 start-0 p-2">
               Trucks
-            </h5>
+            </h5> -->
           </div>
         </div>
         <div class="col-6 col-sm-3 pt-3">
           <div class="card card-category w-100 border-light position-relative">
-            <img src="img/Good Wheels.jpg" class="card-img-top" alt="Wheels Fingerboard">
-            <h5 class="card-title bg-danger bg-gradient text-light text-uppercase position-absolute top-0 start-0 p-2">
+            <img src="img/Good Wheels Red.jpg" class="card-img-top" alt="Wheels Fingerboard">
+            <!-- <h5 class="card-title bg-danger bg-gradient text-light text-uppercase position-absolute top-0 start-0 p-2">
               Wheels
-            </h5>
+            </h5> -->
           </div>
         </div>
         <div class="col-6 col-sm-3 pt-3">
           <div class="card card-category border-light position-relative">
             <img src="img/Good Accessories.jpg" class="card-img-top" alt="Fingerboard Carrier">
-            <h5 class="card-title bg-danger bg-gradient text-light text-uppercase position-absolute top-0 start-0 p-2">
-              Accessories</h5>
+            <!-- <h5 class="card-title bg-danger bg-gradient text-light text-uppercase position-absolute top-0 start-0 p-2">
+              Accessories</h5> -->
           </div>
         </div>
       </div>
@@ -741,7 +765,7 @@
           </div>
         </div>
         <div class="item">
-          <div class="card">
+          <div class="card w50">
             <div class="card-header">
               Albus
             </div>
@@ -945,11 +969,11 @@
         loop: true,
         margin: 10,
         responsiveClass: true,
-        nav: true,
+        nav: false,
         loop: true,
         responsive: {
           0: {
-            items: 1,
+            items: 2,
           },
           768: {
             items: 4,
@@ -958,6 +982,7 @@
       })
     });
   </script>
+
 
   <!-- Modal -->
   <script>
