@@ -91,3 +91,7 @@ footer a {
 .card-news {
     max-height: 650px;
 }
+
+#review .card {
+    border: 0;
+}
