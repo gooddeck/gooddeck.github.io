@@ -19,29 +19,12 @@ body {
     background-size: cover;
 }
 
-.btn-tokped {
-    color: white;
-    background-color: #03ac0e !important;
-    border-radius: 20px;
-}
-
-.btn-shopee {
-    color: white;
-    background-color: #ee4d2d !important;
-    border-radius: 20px;
-}
-
 .social :hover {
     color: #EE2D24;
 }
 
 footer a {
     color: white;
-}
-
-.line-catalog {
-    position: absolute;
-    margin-top: -25px;
 }
 
 .ribbon {
@@ -96,6 +79,14 @@ footer a {
     border: 0;
 }
 
+#review img {
+    max-height: 200px;
+}
+
 .modal-body img {
-    max-width: 80%;
+    max-height: 250px;
+}
+
+.marketplace-logo img {
+    height: 25px;
 }
