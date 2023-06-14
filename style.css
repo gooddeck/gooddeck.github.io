@@ -95,3 +95,7 @@ footer a {
 #review .card {
     border: 0;
 }
+
+.modal-body img {
+    max-width: 80%;
+}
