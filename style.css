@@ -6,6 +6,10 @@ body {
     height: 50px;
 }
 
+.marketplace-logo img {
+    height: 25px;
+}
+
 .nav-item {
     text-transform: uppercase;
 }
@@ -85,8 +89,4 @@ footer a {
 
 .modal-body img {
     max-height: 250px;
-}
-
-.marketplace-logo img {
-    height: 25px;
 }
