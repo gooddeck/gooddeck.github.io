@@ -31,66 +31,63 @@
 </head>
 
 <body id="home">
-  <!-- Navbar Start -->
-  <section id="brand">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <div class="row">
-        <div class="col">
-          <a class="navbar-brand" href="#">
-            <img src="img/Good Maple New Logo.png" style="max-width: 100px;" alt=" Good-Deck-Logo">
-          </a>
-        </div>
-        <div class="col pt-3">
-          <div class="nav marketplace justify-content-end">
-            <a class="nav-link" href="https://shope.ee/7f1oK0e8qA" target="_blank">
-              <img src="img/logo-shopee.png" alt="Shopee Good Deck">
-            </a>
-            <a class="nav-link" href="https://www.tokopedia.com/gooddeck" target="_blank">
-              <img src="img/logo-tokopedia.png" alt="Tokopedia Good Deck">
-            </a>
-            <a class="nav-link" href="https://www.lazada.co.id/shop/good-deck" target="_blank">
-              <img src="img/logo-lazada.png" alt="Lazada Good Deck">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-    <div class="container justify-content-end">
+      <a class="navbar-brand" href="#">
+        <img src="img/Good Maple New Logo.png" style="max-width: 80px;" alt=" Good-Deck-Logo">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-lg-center fw-bold" id="navbarNav">
-        <ul class="nav navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" href="#">Beranda</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-              aria-expanded="false">Produk</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Papan</a></li>
-              <li><a class="dropdown-item" href="#">Trucks</a></li>
-              <li><a class="dropdown-item" href="#">Roda</a></li>
-              <li><a class="dropdown-item" href="#">Aksesoris</a></li>
-              <li>
-                <hr class="dropdown-divider">
+      <div class="collapse navbar-collapse justify-content-lg-evenly fw-bold" id="navbarNav">
+        <div class="row">
+          <div class="col">
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Beranda</a>
               </li>
-              <li><a class="dropdown-item" href="#">Custom Papan</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Produk</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Papan</a></li>
+                  <li><a class="dropdown-item" href="#">Trucks</a></li>
+                  <li><a class="dropdown-item" href="#">Roda</a></li>
+                  <li><a class="dropdown-item" href="#">Aksesoris</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Custom Papan</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#review">Ulasan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#news">Berita</a>
+              </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#review">Ulasan</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Tentang Kami</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#news">Berita</a>
-          </li>
-        </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="nav marketplace justify-content-end">
+              <a class="nav-link marketplace-logo" href="https://shope.ee/7f1oK0e8qA" target="_blank">
+                <img src="img/logo-shopee.png" alt="Shopee Good Deck">
+              </a>
+              <a class="nav-link marketplace-logo" href="https://www.tokopedia.com/gooddeck" target="_blank">
+                <img src="img/logo-tokopedia.png" alt="Tokopedia Good Deck">
+              </a>
+              <a class="nav-link marketplace-logo" href="https://www.lazada.co.id/shop/good-deck" target="_blank">
+                <img src="img/logo-lazada.png" alt="Lazada Good Deck">
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -648,13 +645,14 @@
             <div class="modal-footer">
               <h5 class="fw-bold text-center">Belanja Sekarang di</h5>
               <div class="nav marketplace justify-content-center">
-                <a class="nav-link market-shopee" href="#" target="_blank">
+                <a class="nav-link market-shopee marketplace-logo" href="#" target="_blank">
                   <img src="img/logo-shopee.png" alt="Shopee Good Deck">
                 </a>
-                <a class="nav-link market-tokped" href="#" target="_blank">
+                <a class="nav-link market-tokped marketplace-logo" href="#" target="_blank">
                   <img src="img/logo-tokopedia.png" alt="Tokopedia Good Deck">
                 </a>
-                <a class="nav-link market-lazada" href="https://www.lazada.co.id/shop/good-deck" target="_blank">
+                <a class="nav-link market-lazada marketplace-logo" href="https://www.lazada.co.id/shop/good-deck"
+                  target="_blank">
                   <img src="img/logo-lazada.png" alt="Lazada Good Deck">
                 </a>
               </div>
@@ -817,106 +815,28 @@
     <div class="container p-5">
       <h3 class="text-center fw-bold">Ulasan</h3>
       <hr class="border-5 border-top border-danger">
-      <div id="carouselExampleCaptions" class="carousel carousel-dark slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
+      <div class="owl-carousel owl-theme">
+        <div class="card mx-auto" style="max-width: 253px;">
+          <img src="img/Good Testi Story 3.jpg" class="card-img-top" alt="Good-Deck-Testimonial-3">
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="card mb-3 mx-auto" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="img/Ricky-Tokopedia.jpg" class="img-fluid rounded float-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Ricky</h5>
-                    <p class="fs-6">Fingerboard Good Deck - Goodrilla Limited Edition</p>
-                    <div class="rating text-warning">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <p class="card-text">fast respon, kualitas barang bagus bgt. paint jobnya juga cakebb recomended
-                      bgt
-                    </p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card mb-3 mx-auto" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="img/gembonganggito-shopee.jpg" class="img-fluid rounded float-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">gembonganggito</h5>
-                    <p class="fs-6">Fingerboard Good Deck - Goodboosters Limited Edition</p>
-                    <div class="rating text-warning">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <p class="card-text">Kualitas:super Deck dengan feel unboxing terbaik, dari pada produk import
-                      wkwk... harga super worth it
-                      Super presisi shape dan lubang" trucksnya Terimakasih banyak gooddeck
-                    </p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card mb-3 mx-auto" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="img/arinnaufall-shopee.jpg" class="img-fluid rounded float-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">arinnaufall</h5>
-                    <p class="fs-6">Fingerboard Good Deck - Pray Limited Edition</p>
-                    <div class="rating text-warning">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                    <p class="card-text">Kualitas:100%<br>Tampilan:mantap<br>Sesuai pesanan , deck bagus dan rapih ,
-                      pokoknya mantap
-                    </p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="card mx-auto" style="max-width: 253px;">
+          <img src="img/Good Testi Story 4.jpg" class="card-img-top" alt="Good-Deck-Testimonial-4">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="card mx-auto" style="max-width: 253px;">
+          <img src="img/Good Testi Story 24.jpg" class="card-img-top" alt="Good-Deck-Testimonial-24">
+        </div>
+        <div class="card mx-auto" style="max-width: 253px;">
+          <img src="img/Good Testi Story 27.jpg" class="card-img-top" alt="Good-Deck-Testimonial-27">
+        </div>
+        <div class="card mx-auto" style="max-width: 253px;">
+          <img src="img/Good Testi Story 31.jpg" class="card-img-top" alt="Good-Deck-Testimonial-31">
+        </div>
+        <div class="card mx-auto" style="max-width: 253px;">
+          <img src="img/Good Testi Story 36.jpg" class="card-img-top" alt="Good-Deck-Testimonial-36">
+        </div>
+        <div class="card mx-auto" style="max-width: 253px;">
+          <img src="img/Good Testi Story 38.jpg" class="card-img-top" alt="Good-Deck-Testimonial-38">
+        </div>
       </div>
     </div>
   </section>
