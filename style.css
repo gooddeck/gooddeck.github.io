@@ -104,7 +104,7 @@ footer a {
   transition: all 1s ease-in-out;
   height: 75vmin;
   position: relative;
-  .item-collection {
+  /* .item-collection {
     color: white;
     background: red;
     padding: 0.5em;
@@ -118,7 +118,7 @@ footer a {
     left: 0;
     font-size: 1em;
     white-space: nowrap;
-  }
+  } */
 
   &:hover {
     flex-grow: 10;
@@ -139,7 +139,7 @@ footer a {
     height: 100%;
     object-fit: cover;
     transition: all 1s ease-in-out;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
   }
   &:not(:nth-child(5)) {
     /* margin-right: 1em; */
